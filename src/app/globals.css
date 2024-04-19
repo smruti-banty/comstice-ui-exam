@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h5 {
+    @apply text-xl font-semibold;
+  }
+}
+
 .hero-heading {
   @apply row-span-1 md:max-w-md text-5xl font-semibold bg-gradient-to-r from-black to-gray-700 bg-clip-text;
 }
